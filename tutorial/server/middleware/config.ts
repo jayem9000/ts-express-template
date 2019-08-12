@@ -14,7 +14,7 @@ export function configureRequestMiddleware(app: Express) {
   app.use(cookieParser());
 
   // serves static files at the root
-  app.use(express.static(path.join(__dirname, 'public')));
+  app.use(express.static(path.join(__dirname, '../public')));
 
   configureWebpack(app);
 }
@@ -24,7 +24,7 @@ function configureWebpack(app: Express) {
 
   app.use(
     webpackDevMiddleware(compiler, {
-      publicPath: configFile.output!.publicPath!
+      publicPath: configFile.output.publicPath
     })
   );
 }

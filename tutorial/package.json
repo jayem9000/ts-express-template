@@ -3,9 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node dist/bin/start.js",
-    "dev": "nodemon src/bin/start.ts",
-    "build": "tsc -p ."
+    "start": "nodemon server/bin/start.ts"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
