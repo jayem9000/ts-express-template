@@ -16,6 +16,7 @@ This is a simple project setup based on express-generator
 - TypeScript: http://www.typescriptlang.org/
 - Webpack: https://webpack.js.org/
 - React: https://reactjs.org/
+- Nodemon: https://github.com/remy/nodemon#nodemon
 
 # How was this created?
 Link: [Learn here](./docs/how_was_i_created.md)

@@ -47,6 +47,7 @@ Integrate Typescript with webpack
 
 # Step 6
 Integrate bundle into main pug file
+- add script(src='/bundle.js') to the index.pug file
 
 
 
